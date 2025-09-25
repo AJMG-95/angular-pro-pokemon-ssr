@@ -1,10 +1,10 @@
 # ./netlify.toml  (en la raíz del repo)
 [build]
-  command = "npm run build"
+  command = "npm run build:ssr"
   publish = "dist/pokemon-ssr/browser"
 
-#[[plugins]]
-#  package = "@netlify/angular-runtime"
+[[plugins]]
+  package = "@netlify/angular-runtime"
 
 [build.environment]
   NODE_VERSION = "22"
