@@ -1,6 +1,6 @@
 # ./netlify.toml  (en la raíz del repo)
 [build]
-  command = "npm run build:ssr"
+  command = "npm run build"
   publish = "dist/pokemon-ssr/browser"
 
 [[plugins]]
